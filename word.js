@@ -22,6 +22,8 @@ exports.Word = function(word) {
     this.guessLetter = function(character) {
         this.letterArray.forEach(function(letterObj){
             letterObj.changeBoolean(character);
+            return true
+            
         })
 
 

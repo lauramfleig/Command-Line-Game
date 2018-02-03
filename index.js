@@ -26,11 +26,9 @@ function startGame() {
 
     }]).then(function (answers) {
         var guessedLetter = answers.enterLetter
-        chosenWord.guessLetter(guessedLetter)
-        console.log(chosenWord.wordToString())
-
-        if (!!!!!!!!!!!)
-
+        console.log(chosenWord.guessLetter(guessedLetter))
+        var stringResult = chosenWord.wordToString();
+        console.log(stringResult)
 
         
     });
